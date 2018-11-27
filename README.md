@@ -2,7 +2,8 @@
 
 This package provides Julia bindings to the [FFTW](http://www.fftw.org/) library for
 fast Fourier transforms (FFTs), as well as functionality useful for signal processing.
-These functions were formerly a part of Base Julia.
+These functions were formerly a part of Base Julia. See this package's
+[documentation](https://juliamath.github.io/FFTW.jl/latest/fft.html) for more information.
 
 Alternatively, the FFTs in Intel's Math Kernel Library (MKL) can be used
 by setting an environment variable `JULIA_FFTW_PROVIDER` to `MKL` and running
